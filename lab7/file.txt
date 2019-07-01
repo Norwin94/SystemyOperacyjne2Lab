@@ -1,0 +1,26 @@
+asdf 123 qwe 098 zxc 123
+19405
+as0303
+sznurek 
+
+p3f0330f
+304fa09
+0001
+
+
+import sys
+import re
+import os
+
+list = os.listdir(sys.argv[1])
+
+for y in list:
+	if(os.path.isfile(y)):
+		text = open(y)
+		i = 0
+		print (y)
+		for x in text :
+			task6 = re.findall(r'(\b[a-z]+\b)', x)
+			for yx in task6 :
+					i = i + 1
+		print (i)
