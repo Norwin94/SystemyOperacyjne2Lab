@@ -1,0 +1,6 @@
+{File: jedynka.txt}
+zobacz
+{File: trojka.txt}
+co
+{File: dwojka.txt}
+narobilas
